@@ -1,0 +1,22 @@
+[
+  {
+    "query": "RAG hallucination",
+    "expected_ids": ["rag"]
+  },
+  {
+    "query": "AI agents tool calling",
+    "expected_ids": ["agents"]
+  },
+  {
+    "query": "LLM evaluation metrics",
+    "expected_ids": ["evaluation"]
+  },
+  {
+    "query": "quantum computing",
+    "expected_ids": []
+  },
+  {
+    "query": "retrieval generation knowledge base",
+    "expected_ids": ["rag"]
+  }
+]

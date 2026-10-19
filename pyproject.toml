@@ -1,0 +1,22 @@
+[project]
+name = "ai-research-assistant"
+version = "0.1.0"
+description = "A tool-using AI research assistant with structured outputs and retrieval evaluation."
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai",
+    "pydantic",
+    "python-dotenv",
+    "streamlit",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests that require live external API calls",
+]
+addopts = "-m 'not integration'"

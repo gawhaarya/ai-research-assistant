@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rag",
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "keywords": ["rag", "retrieval", "generation", "hallucination", "knowledge base"],
+    "content": "RAG retrieves relevant information from an external knowledge source and provides it to a language model to help generate a grounded answer. A typical pipeline includes document loading, chunking, embedding generation, vector storage, retrieval, and answer generation. Benefits include access to private or updated knowledge and improved grounding. Limitations include poor retrieval, irrelevant context, and incorrect answers despite retrieved evidence."
+  },
+  {
+    "id": "agents",
+    "title": "AI Agents and Tool Calling",
+    "keywords": ["agent", "agents", "tool calling", "function calling", "tools"],
+    "content": "An AI agent can use a language model to decide what action to take toward a goal. Tool calling lets the model request a named function with structured arguments. The application validates the requested tool and arguments, executes the function, and returns its result to the model. Tool calling does not mean the model executes arbitrary Python code."
+  },
+  {
+    "id": "evaluation",
+    "title": "LLM Evaluation",
+    "keywords": ["evaluation", "testing", "metrics", "quality"],
+    "content": "LLM applications can be evaluated using representative test questions and expected outcomes. Retrieval systems may use Recall@k, Precision@k, and Mean Reciprocal Rank. Generated answers can be assessed for correctness, relevance, groundedness, and completeness. Automated evaluation should be supplemented with human review where appropriate."
+  }
+]
